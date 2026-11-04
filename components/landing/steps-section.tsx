@@ -27,8 +27,8 @@ export function StepsSection() {
                   <Icon className="size-5" aria-hidden="true" />
                 </span>
               </div>
-              <h3 className="mt-7 text-lg font-semibold tracking-[-0.035em] text-[#111111]">{title}</h3>
-              <p className="mt-2 text-sm leading-6 text-[#4b5563]">{text}</p>
+              <h3 className="mt-7 text-justify text-lg font-semibold tracking-[-0.035em] text-[#111111]">{title}</h3>
+              <p className="mt-2 text-justify text-sm leading-6 text-[#4b5563]">{text}</p>
             </article>
           ))}
         </div>

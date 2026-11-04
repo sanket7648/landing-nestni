@@ -13,7 +13,7 @@ export function SolutionSection({ onDemoRequest }: { onDemoRequest: () => void }
           <h2 id="solution-heading" className="mt-5 max-w-xl text-3xl font-semibold leading-tight tracking-[-0.055em] text-[#111111] sm:text-4xl lg:text-[46px]">
             Everything important, finally in one place.
           </h2>
-          <p className="mt-4 max-w-lg text-sm leading-6 text-[#4b5563] sm:text-base sm:leading-7">
+          <p className="mt-4 max-w-lg text-sm leading-6 text-[#4b5563] sm:text-justify sm:leading-7">
             Nestni brings tenant details, documents, identity verification, rent tracking, and room availability together - so the next step is always clear.
           </p>
           <button type="button" onClick={onDemoRequest} className="mt-7 inline-flex items-center rounded-full bg-[#00a98f] px-5 py-3 text-sm font-semibold text-[#111111] transition hover:bg-[#008f79]">
@@ -36,8 +36,8 @@ export function SolutionSection({ onDemoRequest }: { onDemoRequest: () => void }
               {solutionOverview.map(({ icon: Icon, title, status }) => (
                 <div key={title} className="rounded-xl bg-[#e6f7f4] p-3">
                   <Icon className="size-4 text-[#00a98f]" aria-hidden="true" />
-                  <p className="mt-2 text-xs text-[#4b5563]">{title}</p>
-                  <p className="mt-0.5 text-sm font-semibold text-[#111111]">{status}</p>
+                  <p className="mt-2 text-justify text-xs text-[#4b5563]">{title}</p>
+                  <p className="mt-0.5 text-justify text-sm font-semibold text-[#111111]">{status}</p>
                 </div>
               ))}
             </div>
@@ -49,7 +49,7 @@ export function SolutionSection({ onDemoRequest }: { onDemoRequest: () => void }
               {solutionTasks.map(({ icon: Icon, title, text, status, tone }, index) => (
                 <div key={title} className={`solution-row flex items-center gap-2.5 border-t border-[#e5e7eb] py-2.5 ${index === 0 ? 'border-t-0' : ''}`} style={{ animationDelay: `${index * 180}ms` }}>
                   <span className={`flex size-7 shrink-0 items-center justify-center rounded-lg ${tone}`}><Icon className="size-3.5" aria-hidden="true" /></span>
-                  <div className="min-w-0 flex-1"><p className="truncate text-xs font-semibold text-[#111111]">{title}</p><p className="truncate text-xs text-[#6b7280]">{text}</p></div>
+                  <div className="min-w-0 flex-1"><p className="text-justify text-xs font-semibold text-[#111111]">{title}</p><p className="text-justify text-xs text-[#6b7280]">{text}</p></div>
                   <span className={`inline-flex shrink-0 items-center gap-1 rounded-full px-2 py-1 text-xs font-medium ${tone}`}><CheckCircle2 className="size-3" aria-hidden="true" />{status}</span>
                 </div>
               ))}
@@ -67,8 +67,8 @@ export function SolutionSection({ onDemoRequest }: { onDemoRequest: () => void }
               <span className="flex size-9 items-center justify-center rounded-xl bg-[#e6f7f4] text-[#111111]">
                 <Icon className="size-[18px]" aria-hidden="true" />
               </span>
-              <h3 className="mt-3 text-sm font-semibold text-[#111111]">{title}</h3>
-              <p className="mt-1 text-sm leading-5 text-[#4b5563]">{text}</p>
+              <h3 className="mt-3 text-justify text-sm font-semibold text-[#111111]">{title}</h3>
+              <p className="mt-1 text-justify text-sm leading-5 text-[#4b5563]">{text}</p>
             </article>
           ))}
         </div>

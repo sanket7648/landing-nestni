@@ -60,7 +60,7 @@ describe('Nestni landing routes', () => {
       </MemoryRouter>,
     )
 
-    expect(privacyMarkup).toContain('Nestni Privacy Policy')
+    expect(privacyMarkup).toContain('Privacy Policy')
     expect(privacyMarkup).toContain('Personal data we collect')
     expect(privacyMarkup).toContain('info@nestni.com')
     expect(privacyMarkup).toContain('Vipul Business Park')
@@ -83,10 +83,13 @@ describe('Nestni landing routes', () => {
       </MemoryRouter>,
     )
 
-    expect(markup).toContain('What We Do')
-    expect(markup).toContain('property owners, PG and hostel owners')
-    expect(markup).not.toContain('What you can manage')
-    expect(markup).not.toContain('Explore Nestni')
+    expect(markup).toContain('About Us')
+    expect(markup).toContain('Property Management, Simplified.')
+    expect(markup).toContain('What We Aim to Do')
+    expect(markup).toContain('Our Vision')
+    expect(markup).toContain('Our Mission')
+    expect(markup).toContain('About Gavox Global')
+    expect(markup).toContain('Gavox Global')
     expect(markup).toContain('href="/about-us"')
   })
 })

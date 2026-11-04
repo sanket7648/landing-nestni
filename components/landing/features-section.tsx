@@ -19,8 +19,8 @@ export function FeaturesSection() {
               <span className={`flex size-11 items-center justify-center rounded-xl ${index % 2 === 0 ? 'bg-[#e6f7f4] text-[#111111]' : 'bg-[#e6f7f4] text-[#00a98f]'}`}>
                 <Icon className="size-5" aria-hidden="true" />
               </span>
-              <h3 className="mt-5 text-base font-semibold tracking-[-0.025em] text-[#111111]">{title}</h3>
-              <p className="mt-2 text-sm leading-6 text-[#4b5563]">{text}</p>
+              <h3 className="mt-5 text-justify text-base font-semibold tracking-[-0.025em] text-[#111111]">{title}</h3>
+              <p className="mt-2 text-justify text-sm leading-6 text-[#4b5563]">{text}</p>
             </article>
           ))}
         </div>
