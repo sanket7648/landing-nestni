@@ -9,7 +9,7 @@ export function SurveyPage() {
   }, [])
 
   return (
-    <main id="top" className="min-h-screen overflow-hidden bg-[#f3f8f6] text-[#111111]">
+    <main id="top" className="min-h-screen overflow-clip bg-[#f3f8f6] text-[#111111]">
       <LandingHeader />
       <section className="relative mx-auto max-w-6xl px-4 pb-14 pt-7 sm:px-8 sm:pb-20 sm:pt-10 lg:px-10" aria-labelledby="survey-heading">
         <div className="pointer-events-none absolute -right-36 top-0 size-[430px] rounded-full bg-[#d6f2ec]/70 blur-3xl" />

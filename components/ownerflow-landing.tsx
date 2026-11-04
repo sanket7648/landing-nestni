@@ -32,7 +32,7 @@ export function NestniLanding() {
   const openDemo = () => setDemoOpen(true)
 
   return (
-    <main id="top" className="landing-page min-h-screen overflow-hidden bg-[#e6f7f4] text-[#111111]">
+    <main id="top" className="landing-page min-h-screen overflow-clip bg-[#e6f7f4] text-[#111111]">
       <LandingHeader onDemoRequest={openDemo} />
       <HeroSection onDemoRequest={openDemo} />
       <ProblemSection />
