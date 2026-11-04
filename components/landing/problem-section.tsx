@@ -17,7 +17,7 @@ export function ProblemSection() {
               <CircleAlert className="size-3.5" aria-hidden="true" /> The everyday rental rush
             </p>
             <h2 id="problem-heading" className="mt-5 text-3xl font-semibold leading-tight tracking-[0.01em] sm:text-4xl lg:text-[46px]">
-              Rental details are hard to track
+              Lost In Rental Details?
             </h2>
             <p className="mt-4 max-w-lg text-justify text-sm leading-6 text-white/70 sm:leading-7">
               Tenant documents in one place. Rent reminders in another. Room availability in your notes. Keeping it all straight takes time - and important follow-ups can slip through.

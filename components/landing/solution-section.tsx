@@ -8,7 +8,7 @@ export function SolutionSection({ onDemoRequest }: { onDemoRequest: () => void }
       <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-5 sm:px-8 lg:grid-cols-[0.85fr_1.15fr] lg:gap-16 lg:px-10">
         <div>
           <p className="inline-flex items-center gap-2 rounded-full border border-[#e5e7eb] bg-white/75 px-3 py-1.5 text-xs font-bold uppercase tracking-[0.16em] text-[#00a98f]">
-            <Sparkles className="size-3.5 text-[#00a98f]" aria-hidden="true" /> One calmer way to manage
+            <Sparkles className="size-3.5 text-[#00a98f]" aria-hidden="true" /> An easy way to manage
           </p>
           <h2 id="solution-heading" className="mt-5 max-w-xl text-3xl font-semibold leading-tight tracking-[0.01em] text-[#111111] sm:text-4xl lg:text-[46px]">
             All in one place, everything together
