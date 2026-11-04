@@ -1,0 +1,26 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/0_3v_kcytoxle.js"
+3:"PageTransitionProvider"
+4:I[51004,["$2"],"$3"]
+5:I[39756,["$2"],"default"]
+6:I[37457,["$2"],"default"]
+7:I[2355,["$2"],"Analytics"]
+b:"/_next/static/chunks/3v5d1axrtt8tn.js"
+c:I[55002,["$2","$b"],"LandingHeader"]
+d:I[85422,["$2","$b"],"SurveyForm"]
+e:I[97367,["$2"],"OutletBoundary"]
+f:"$Sreact.suspense"
+11:"ViewportBoundary"
+12:I[97367,["$2"],"$11"]
+14:"MetadataBoundary"
+15:I[97367,["$2"],"$14"]
+17:I[68027,["$2"],"default",1]
+:HL["/_next/static/chunks/2xp0ekksvcte1.css","style"]
+9:X
+a:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":[["$","main",null,{"id":"top","className":"min-h-screen bg-[#e6f7f4] text-[#111111]","children":[["$","$Lc",null,{}],["$","section",null,{"className":"mx-auto max-w-4xl px-5 py-10 sm:px-8 sm:py-14 lg:px-10","aria-labelledby":"survey-heading","children":[["$","header",null,{"className":"mb-8 max-w-3xl","children":[["$","p",null,{"className":"text-sm font-bold uppercase tracking-[0.16em] text-[#007d6c]","children":"Nestni market survey"}],["$","h1",null,{"id":"survey-heading","className":"mt-3 text-3xl font-semibold leading-tight tracking-[-0.04em] text-[#183147] sm:text-4xl","children":"Help us understand your property management needs."}],["$","p",null,{"className":"mt-4 text-base leading-7 text-[#4b5563] sm:text-lg","children":"Your feedback will help us build a better Nestni experience for owners and tenants."}]]}],["$","div",null,{"className":"rounded-2xl border border-[#e5e7eb] bg-white p-5 shadow-sm sm:p-8 lg:p-10","children":["$","$Ld",null,{}]}]]}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/3v5d1axrtt8tn.js","async":true,"nonce":"$undefined"}]],["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]]}],"p":false,"v":null}}]]
+8:[["children",{"s":"survey","h":512,"d":{"r":["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$9"},"c":"$Qa"}]]
+0:{"P":null,"c":["","survey"],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2xp0ekksvcte1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0_3v_kcytoxle.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"antialiased","children":[["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}]]}]}]]}],"p":false,"v":null},"c":"$Q8"},"h":{"r":["$","$1","h",{"children":[null,["$","$L12",null,{"children":"$L13"}],["$","$L15",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$f",null,{"name":"Next.Metadata","children":"$L16"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$17",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2xp0ekksvcte1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"pOyyH98G60fYh8xDF1VCX"}
+9:C
+13:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, user-scalable=yes"}],["$","meta","2",{"name":"theme-color","content":"#eeeae3"}],["$","meta","3",{"name":"color-scheme","content":"light"}]]
+10:null
+16:[["$","title","0",{"children":"Nestni Market Survey"}],["$","meta","1",{"name":"description","content":"Help us understand your property management needs and build a better Nestni experience."}],["$","meta","2",{"name":"generator","content":"v0.app"}]]
