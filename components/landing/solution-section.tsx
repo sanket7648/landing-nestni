@@ -13,7 +13,7 @@ export function SolutionSection({ onDemoRequest }: { onDemoRequest: () => void }
           <h2 id="solution-heading" className="mt-5 max-w-xl text-3xl font-semibold leading-tight tracking-[-0.055em] text-[#111111] sm:text-4xl lg:text-[46px]">
             Everything important, finally in one place.
           </h2>
-          <p className="mt-4 max-w-lg text-sm leading-6 text-[#4b5563] sm:text-justify sm:leading-7">
+          <p className="mt-4 max-w-lg text-justify text-sm leading-6 text-[#4b5563] sm:leading-7">
             Nestni brings tenant details, documents, identity verification, rent tracking, and room availability together - so the next step is always clear.
           </p>
           <button type="button" onClick={onDemoRequest} className="mt-7 inline-flex items-center rounded-full bg-[#00a98f] px-5 py-3 text-sm font-semibold text-[#111111] transition hover:bg-[#008f79]">

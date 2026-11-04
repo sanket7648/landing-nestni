@@ -1,4 +1,4 @@
-# Nestni Terms of Use
+# Terms of Use
 
 Office Address : 8th Floor, Office Number 815, Vipul Business Park, Sector 48, Gurugram, India 122018
 

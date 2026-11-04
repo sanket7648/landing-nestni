@@ -19,7 +19,7 @@ export function ProblemSection() {
             <h2 id="problem-heading" className="mt-5 text-3xl font-semibold leading-tight tracking-[-0.055em] sm:text-4xl lg:text-[46px]">
               Rental details shouldn&apos;t be scattered everywhere.
             </h2>
-            <p className="mt-4 max-w-lg text-sm leading-6 text-white/70 sm:text-justify sm:leading-7">
+            <p className="mt-4 max-w-lg text-justify text-sm leading-6 text-white/70 sm:leading-7">
               Tenant documents in one place. Rent reminders in another. Room availability in your notes. Keeping it all straight takes time - and important follow-ups can slip through.
             </p>
             <div className="mt-7 flex flex-wrap gap-2">
