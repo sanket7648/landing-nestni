@@ -8,7 +8,7 @@ export function HeroSection({ onDemoRequest }: { onDemoRequest: () => void }) {
       <div className="pointer-events-none absolute -left-40 top-72 size-[420px] rounded-full bg-[#e6f7f4]/70 blur-3xl" />
       <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-5 py-10 sm:px-8 sm:py-12 lg:min-h-[calc(100svh-73px)] lg:grid-cols-[0.95fr_1.05fr] lg:gap-10 lg:px-10 lg:py-8 xl:gap-12">
         <div className="relative z-10 max-w-xl">
-          <p className="mb-4 inline-flex items-center whitespace-nowrap rounded-full border border-[#00a98f]/30 bg-white/80 px-2 py-2 text-xs font-semibold text-[#00a98f] shadow-sm sm:gap-2 sm:px-4 sm:text-sm">
+          <p className="mb-4 inline-flex max-w-full items-center whitespace-nowrap rounded-full border border-[#00a98f]/30 bg-white/80 px-2 py-2 text-[12.5px] font-semibold leading-tight tracking-[-0.01em] text-[#00a98f] shadow-sm sm:gap-2 sm:px-4 sm:text-sm sm:tracking-normal">
             For Property owners, PG owners, Hostel owners, and Managers
           </p>
           <h1 id="hero-heading" className="max-w-[620px] text-[clamp(2.5rem,5.5vw,4.25rem)] font-semibold leading-[1.02] tracking-[0.01em] text-[#111111]">
