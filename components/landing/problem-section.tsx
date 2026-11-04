@@ -4,7 +4,7 @@ export function ProblemSection() {
   const painPoints = [
     ['Documents', 'Hard to find when you need them'],
     ['Rent & rooms', 'Status spread across different places'],
-    ['Follow-ups', 'Easy to lose track of what needs attention'],
+    ['Follow-ups', 'Hard to focus, easy to forget things'],
   ]
 
   return (
@@ -14,16 +14,16 @@ export function ProblemSection() {
         <div className="grid items-center gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
           <div className="max-w-xl">
             <p className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/[0.06] px-3 py-1.5 text-xs font-bold uppercase tracking-[0.16em] text-[#f0bd7d]">
-              <CircleAlert className="size-3.5" aria-hidden="true" /> The everyday rental scramble
+              <CircleAlert className="size-3.5" aria-hidden="true" /> The everyday rental rush
             </p>
-            <h2 id="problem-heading" className="mt-5 text-3xl font-semibold leading-tight tracking-[-0.055em] sm:text-4xl lg:text-[46px]">
-              Rental details shouldn&apos;t be scattered everywhere.
+            <h2 id="problem-heading" className="mt-5 text-3xl font-semibold leading-tight tracking-[0.01em] sm:text-4xl lg:text-[46px]">
+              Rental details are hard to track
             </h2>
             <p className="mt-4 max-w-lg text-justify text-sm leading-6 text-white/70 sm:leading-7">
               Tenant documents in one place. Rent reminders in another. Room availability in your notes. Keeping it all straight takes time - and important follow-ups can slip through.
             </p>
             <div className="mt-7 flex flex-wrap gap-2">
-              {['Scattered documents', 'Unclear rent status', 'Missed follow-ups'].map((item) => (
+              {['Unorganized docs', 'Unclear rent status', 'Missed follow-ups'].map((item) => (
                 <span key={item} className="rounded-full border border-white/15 bg-white/[0.06] px-3 py-1.5 text-sm text-white/75">{item}</span>
               ))}
             </div>
@@ -39,7 +39,7 @@ export function ProblemSection() {
               </div>
               <div className="mt-4 space-y-2">
                 <div className="flex items-center gap-2 rounded-lg bg-[#f5f2e9] px-2.5 py-2 text-xs text-[#4b5563]"><FileText className="size-3.5 text-[#b07a42]" aria-hidden="true" /> Room 204 · ID copy</div>
-                <div className="flex items-center gap-2 rounded-lg bg-[#f5f2e9] px-2.5 py-2 text-xs text-[#4b5563]"><FileText className="size-3.5 text-[#b07a42]" aria-hidden="true" /> Tenant agreement.pdf</div>
+                <div className="flex items-center gap-2 rounded-lg bg-[#f5f2e9] px-2.5 py-2 text-xs text-[#4b5563]"><FileText className="size-3.5 text-[#b07a42]" aria-hidden="true" /> WaterBill.pdf</div>
               </div>
             </div>
             <div className="problem-float-slow absolute right-[4%] top-[7%] flex w-[43%] rotate-[7deg] items-center gap-3 rounded-2xl border border-[#f1d8b8] bg-[#fff5e9] p-4 text-[#111111] shadow-[0_25px_60px_-32px_rgba(0,0,0,0.65)] dark:border-[#f1d8b8] dark:bg-[#fff5e9] dark:text-[#111111] sm:p-5">

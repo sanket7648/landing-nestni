@@ -6,7 +6,7 @@ export function FeaturesSection() {
       <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#00a98f]">Why Nestni</p>
-          <h2 id="why-heading" className="mt-4 text-3xl font-semibold leading-tight tracking-[-0.055em] text-[#111111] sm:text-4xl">
+          <h2 id="why-heading" className="mt-4 text-3xl font-semibold leading-tight tracking-[0.01em] text-[#111111] sm:text-4xl">
             Manage Your Tenants, Rooms, Rent & Documents Easily.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-sm leading-6 text-[#4b5563] sm:text-base sm:leading-7">

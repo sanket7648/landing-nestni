@@ -15,13 +15,6 @@ export const features = [
   { icon: WalletCards, title: 'Track Payments', text: 'See who has paid rent, whose rent is pending, and payment history.' },
 ]
 
-export const solutionFeatures = [
-  { icon: FileCheck2, title: 'Documents & records', text: 'Keep current and old tenant records together.' },
-  { icon: ShieldCheck, title: 'Tenant verification', text: 'Keep identity checks in your tenant workflow.' },
-  { icon: WalletCards, title: 'Rent tracking', text: 'See paid and pending rent at a glance.' },
-  { icon: BedDouble, title: 'Room availability', text: 'Quickly check vacant and occupied rooms.' },
-]
-
 export const solutionOverview = [
   { icon: WalletCards, title: 'Rent', status: 'Tracked' },
   { icon: BedDouble, title: 'Rooms', status: 'Visible' },

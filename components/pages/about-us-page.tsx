@@ -19,7 +19,7 @@ export function AboutUsPage() {
       <LandingHeader onDemoRequest={() => setDemoOpen(true)} />
       <div className="mx-auto max-w-7xl px-5 py-12 sm:px-8 sm:py-16 lg:px-10">
         <section className="mx-auto max-w-4xl rounded-3xl bg-white px-6 py-10 shadow-sm sm:px-10 sm:py-14" aria-labelledby="about-heading">
-          <h1 id="about-heading" className="text-4xl font-semibold leading-tight tracking-[-0.055em] text-[#173f35] sm:text-5xl">
+          <h1 id="about-heading" className="text-4xl font-semibold leading-tight tracking-[0.01em] text-[#173f35] sm:text-5xl">
             About Us
           </h1>
           <h2 className="mt-4 text-xl font-semibold text-[#00a98f] sm:text-2xl">

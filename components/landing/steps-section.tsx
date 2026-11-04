@@ -9,7 +9,7 @@ export function StepsSection() {
         <div className="flex flex-col justify-between gap-5 md:flex-row md:items-end">
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#00a98f]">How it works</p>
-            <h2 id="flow-heading" className="mt-4 max-w-2xl text-3xl font-semibold leading-tight tracking-[-0.055em] text-[#111111] sm:text-4xl">
+            <h2 id="flow-heading" className="mt-4 max-w-2xl text-3xl font-semibold leading-tight tracking-[0.01em] text-[#111111] sm:text-4xl">
               Manage Property in 3 Simple Steps
             </h2>
             <p className="mt-4 max-w-2xl text-sm leading-6 text-[#4b5563] sm:text-base">

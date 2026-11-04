@@ -18,6 +18,7 @@ export function LandingFooter({ onDemoRequest }: { onDemoRequest: () => void }) 
               <div className="mt-4 flex flex-col gap-3 text-sm text-white/75">
                 <Link to="/#why-nestni" className="hover:text-white">Why Nestni</Link>
                 <Link to="/#flow" className="hover:text-white">How it works</Link>
+                <Link to="/#faq" className="hover:text-white">FAQ</Link>
               </div>
             </div>
             <div>
@@ -32,9 +33,8 @@ export function LandingFooter({ onDemoRequest }: { onDemoRequest: () => void }) 
           <div className="col-start-2 row-start-2 lg:col-start-auto lg:row-start-auto">
             <h2 className="text-sm font-bold uppercase tracking-[0.14em] text-white/55">Company</h2>
             <div className="mt-4 flex flex-col gap-3 text-sm text-white/75">
-              <button type="button" onClick={onDemoRequest} className="text-left hover:text-white">Contact</button>
-              <button type="button" onClick={onDemoRequest} className="text-left hover:text-white">Early access</button>
-              <Link to="/#faq" className="hover:text-white">FAQ</Link>
+              <button type="button" onClick={onDemoRequest} className="text-left hover:text-white">Contact Us</button>
+              <button type="button" onClick={onDemoRequest} className="text-left hover:text-white">Book a Demo</button>
               <Link to="/about-us" className="hover:text-white">About Us</Link>
               <Link to="/privacy-policy" className="hover:text-white">Privacy Policy</Link>
               <Link to="/terms-of-use" className="hover:text-white">Terms of Use</Link>

@@ -19,7 +19,7 @@ export function SurveyPage() {
               <Sparkles className="size-4" aria-hidden="true" />
               Nestni market survey
             </p>
-            <h1 id="survey-heading" className="mt-3 max-w-3xl text-3xl font-semibold leading-tight tracking-[-0.045em] text-[#183147] sm:text-4xl lg:text-[42px]">
+            <h1 id="survey-heading" className="mt-3 max-w-3xl text-3xl font-semibold leading-tight tracking-[0.01em] text-[#183147] sm:text-4xl lg:text-[42px]">
               Help us understand your property management needs.
             </h1>
             <p className="mt-3 max-w-2xl text-base leading-7 text-[#596b66] sm:text-lg">

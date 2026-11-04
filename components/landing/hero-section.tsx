@@ -12,7 +12,7 @@ export function HeroSection({ onDemoRequest }: { onDemoRequest: () => void }) {
             <span className="size-1.5 rounded-full bg-[#00a98f]" />
             For property owners, PG owners, hostel owners, and managers
           </p>
-          <h1 id="hero-heading" className="max-w-[620px] text-[clamp(2.5rem,5.5vw,4.25rem)] font-semibold leading-[1.02] tracking-[-0.06em] text-[#111111]">
+          <h1 id="hero-heading" className="max-w-[620px] text-[clamp(2.5rem,5.5vw,4.25rem)] font-semibold leading-[1.02] tracking-[0.01em] text-[#111111]">
             Rental Business, <span className="text-[#00a98f]">Simplified.</span>
           </h1>
           <p className="mt-4 max-w-lg text-base leading-7 text-[#4b5563] sm:text-lg sm:leading-8">

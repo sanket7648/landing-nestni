@@ -50,8 +50,8 @@ export function FaqSection({ open, onOpenChange }: FaqSectionProps) {
         <div className="grid gap-10 lg:grid-cols-[0.65fr_1.35fr] lg:gap-16">
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#00a98f]">Frequently Asked Questions</p>
-            <h2 id="faq-heading" className="mt-4 max-w-sm text-3xl font-semibold leading-tight tracking-[-0.055em] text-[#111111] sm:text-4xl">
-              Frequently Asked Questions
+            <h2 id="faq-heading" className="mt-4 max-w-sm text-3xl font-semibold leading-tight tracking-[0.01em] text-[#111111] sm:text-4xl">
+              FAQs
             </h2>
             <p className="mt-4 w-full text-justify text-sm leading-6 text-[#4b5563]">
               Short answers for property owners, PG owners, hostel owners, managers, and tenants evaluating Nestni.
