@@ -146,6 +146,26 @@ html.dark body {
   color: #edf6f3;
 }
 
+html.dark .legal-document-page {
+  background-color: #101a18;
+  color: #edf6f3;
+}
+
+html.dark .legal-document-card {
+  background-color: #172320;
+}
+
+html.dark .legal-document h1,
+html.dark .legal-document h2,
+html.dark .legal-document h3 {
+  color: #edf6f3;
+}
+
+html.dark .legal-document p,
+html.dark .legal-document ul {
+  color: #c2d0cb;
+}
+
 html.dark [class~="bg-[#e6f7f4]"],
 html.dark [class~="bg-[#f3f8f6]"],
 html.dark [class~="bg-[#f3f4f6]"],

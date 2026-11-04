@@ -67,10 +67,10 @@ export function LegalDocumentPage({ title, content }: LegalDocumentPageProps) {
   }, [title])
 
   return (
-    <main className="min-h-screen bg-[#e6f7f4] text-[#111111]">
+    <main className="legal-document-page min-h-screen bg-[#e6f7f4] text-[#111111]">
       <LandingHeader onDemoRequest={() => setDemoOpen(true)} />
       <div className="mx-auto max-w-4xl px-5 py-12 sm:px-8 sm:py-16 lg:px-10">
-        <article className="rounded-3xl bg-white px-6 py-8 shadow-sm sm:px-10 sm:py-12">
+        <article className="legal-document-card rounded-3xl bg-white px-6 py-8 shadow-sm sm:px-10 sm:py-12">
           <div className="legal-document text-justify">
             {blocks.map((block, index) => {
               if (block.type === 'heading') {

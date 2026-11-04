@@ -16,8 +16,8 @@ export function LandingFooter({ onDemoRequest }: { onDemoRequest: () => void }) 
             <div>
               <h2 className="text-sm font-bold uppercase tracking-[0.14em] text-white/55">Product</h2>
               <div className="mt-4 flex flex-col gap-3 text-sm text-white/75">
-                <a href="#why-nestni" className="hover:text-white">Why Nestni</a>
-                <a href="#flow" className="hover:text-white">How it works</a>
+                <Link to="/#why-nestni" className="hover:text-white">Why Nestni</Link>
+                <Link to="/#flow" className="hover:text-white">How it works</Link>
               </div>
             </div>
             <div>
@@ -34,7 +34,7 @@ export function LandingFooter({ onDemoRequest }: { onDemoRequest: () => void }) 
             <div className="mt-4 flex flex-col gap-3 text-sm text-white/75">
               <button type="button" onClick={onDemoRequest} className="text-left hover:text-white">Contact</button>
               <button type="button" onClick={onDemoRequest} className="text-left hover:text-white">Early access</button>
-              <a href="#faq" className="hover:text-white">FAQ</a>
+              <Link to="/#faq" className="hover:text-white">FAQ</Link>
               <Link to="/about-us" className="hover:text-white">About Us</Link>
               <Link to="/privacy-policy" className="hover:text-white">Privacy Policy</Link>
               <Link to="/terms-of-use" className="hover:text-white">Terms of Use</Link>
