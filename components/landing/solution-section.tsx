@@ -11,7 +11,7 @@ export function SolutionSection({ onDemoRequest }: { onDemoRequest: () => void }
             <Sparkles className="size-3.5 text-[#00a98f]" aria-hidden="true" /> An easy way to manage
           </p>
           <h2 id="solution-heading" className="mt-5 max-w-xl text-3xl font-semibold leading-tight tracking-[0.01em] text-[#111111] sm:text-4xl lg:text-[46px]">
-            All in one place, everything together
+            All In One Place, Everything Together
           </h2>
           <p className="mt-4 max-w-lg text-justify text-sm leading-6 text-[#4b5563] sm:leading-7">
             Nestni brings tenant details, documents, identity verification, rent tracking, and room availability together - so the next step is always clear.
