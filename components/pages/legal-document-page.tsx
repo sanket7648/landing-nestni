@@ -71,7 +71,7 @@ export function LegalDocumentPage({ title, content }: LegalDocumentPageProps) {
       <LandingHeader onDemoRequest={() => setDemoOpen(true)} />
       <div className="mx-auto max-w-4xl px-5 py-12 sm:px-8 sm:py-16 lg:px-10">
         <article className="rounded-3xl bg-white px-6 py-8 shadow-sm sm:px-10 sm:py-12">
-          <div className="legal-document">
+          <div className="legal-document text-justify">
             {blocks.map((block, index) => {
               if (block.type === 'heading') {
                 if (block.level === 1) {

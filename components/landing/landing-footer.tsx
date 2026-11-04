@@ -8,7 +8,7 @@ export function LandingFooter({ onDemoRequest }: { onDemoRequest: () => void }) 
         <div className="grid grid-cols-2 gap-x-6 gap-y-8 sm:gap-x-8 sm:gap-y-9 lg:grid-cols-[1.4fr_0.7fr_0.7fr_0.7fr]">
           <div className="col-span-2 max-w-xs lg:col-span-1">
             <Logo light />
-            <p className="mt-4 text-sm leading-6 text-white/65">
+            <p className="mt-4 text-justify text-sm leading-6 text-white/65 sm:text-left">
               Nestni is your digital partner that makes rental property management simple, secure, and organized for every property owner.
             </p>
           </div>
