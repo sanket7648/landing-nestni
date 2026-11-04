@@ -53,7 +53,7 @@ export function FaqSection({ open, onOpenChange }: FaqSectionProps) {
             <h2 id="faq-heading" className="mt-4 max-w-sm text-3xl font-semibold leading-tight tracking-[-0.055em] text-[#111111] sm:text-4xl">
               Frequently Asked Questions
             </h2>
-            <p className="mt-4 max-w-sm text-justify text-sm leading-6 text-[#4b5563]">
+            <p className="mt-4 w-full text-justify text-sm leading-6 text-[#4b5563]">
               Short answers for property owners, PG owners, hostel owners, managers, and tenants evaluating Nestni.
             </p>
           </div>
