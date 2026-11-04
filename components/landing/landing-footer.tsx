@@ -27,7 +27,7 @@ export function LandingFooter({ onDemoRequest }: { onDemoRequest: () => void }) 
               <a href="https://nestni.com/register" className="hover:text-white">Register</a>
             </div>
           </div>
-          <div>
+          <div className="col-start-2 lg:col-start-auto">
             <h2 className="text-sm font-bold uppercase tracking-[0.14em] text-white/55">Company</h2>
             <div className="mt-4 flex flex-col gap-3 text-sm text-white/75">
               <button type="button" onClick={onDemoRequest} className="text-left hover:text-white">Contact</button>
