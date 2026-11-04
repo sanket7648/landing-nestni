@@ -63,12 +63,14 @@ export function SolutionSection({ onDemoRequest }: { onDemoRequest: () => void }
 
         <div className="grid gap-3 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
           {solutionFeatures.map(({ icon: Icon, title, text }, index) => (
-            <article key={title} className="solution-feature rounded-2xl border border-[#e5e7eb] bg-white/80 p-4 transition hover:-translate-y-1 hover:shadow-md sm:p-5" style={{ animationDelay: `${index * 100}ms` }}>
-              <span className="flex size-9 items-center justify-center rounded-xl bg-[#e6f7f4] text-[#111111]">
+            <article key={title} className="solution-feature flex items-start gap-3 rounded-2xl border border-[#e5e7eb] bg-white/80 p-4 transition hover:-translate-y-1 hover:shadow-md sm:block sm:p-5" style={{ animationDelay: `${index * 100}ms` }}>
+              <span className="flex size-9 shrink-0 items-center justify-center rounded-xl bg-[#e6f7f4] text-[#111111]">
                 <Icon className="size-[18px]" aria-hidden="true" />
               </span>
-              <h3 className="mt-3 text-justify text-sm font-semibold text-[#111111]">{title}</h3>
-              <p className="mt-1 text-justify text-sm leading-5 text-[#4b5563]">{text}</p>
+              <div className="min-w-0 flex-1">
+                <h3 className="text-justify text-sm font-semibold text-[#111111] sm:mt-3">{title}</h3>
+                <p className="mt-1 text-justify text-sm leading-5 text-[#4b5563]">{text}</p>
+              </div>
             </article>
           ))}
         </div>

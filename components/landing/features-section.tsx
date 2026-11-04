@@ -15,12 +15,14 @@ export function FeaturesSection() {
         </div>
         <div className="mt-11 grid gap-4 sm:grid-cols-2 lg:mt-14 lg:grid-cols-4">
           {features.map(({ icon: Icon, title, text }, index) => (
-            <article key={title} className="group rounded-2xl border border-[#e5e7eb] bg-[#e6f7f4] p-5 transition hover:-translate-y-1 hover:border-[#e5e7eb] hover:shadow-[0_18px_40px_-30px_rgba(0,169,143,0.45)] sm:p-6">
-              <span className={`flex size-11 items-center justify-center rounded-xl ${index % 2 === 0 ? 'bg-[#e6f7f4] text-[#111111]' : 'bg-[#e6f7f4] text-[#00a98f]'}`}>
+            <article key={title} className="group flex items-start gap-3 rounded-2xl border border-[#e5e7eb] bg-[#e6f7f4] p-5 transition hover:-translate-y-1 hover:border-[#e5e7eb] hover:shadow-[0_18px_40px_-30px_rgba(0,169,143,0.45)] sm:block sm:p-6">
+              <span className={`flex size-11 shrink-0 items-center justify-center rounded-xl ${index % 2 === 0 ? 'bg-[#e6f7f4] text-[#111111]' : 'bg-[#e6f7f4] text-[#00a98f]'}`}>
                 <Icon className="size-5" aria-hidden="true" />
               </span>
-              <h3 className="mt-5 text-justify text-base font-semibold tracking-[-0.025em] text-[#111111]">{title}</h3>
-              <p className="mt-2 text-justify text-sm leading-6 text-[#4b5563]">{text}</p>
+              <div className="min-w-0 flex-1">
+                <h3 className="text-justify text-base font-semibold tracking-[-0.025em] text-[#111111] sm:mt-5">{title}</h3>
+                <p className="mt-1 text-justify text-sm leading-6 text-[#4b5563] sm:mt-2">{text}</p>
+              </div>
             </article>
           ))}
         </div>
