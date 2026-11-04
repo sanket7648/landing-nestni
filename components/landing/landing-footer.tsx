@@ -12,22 +12,24 @@ export function LandingFooter({ onDemoRequest }: { onDemoRequest: () => void }) 
               Nestni is your digital partner that makes rental property management simple, secure, and organized for every property owner.
             </p>
           </div>
-          <div>
-            <h2 className="text-sm font-bold uppercase tracking-[0.14em] text-white/55">Product</h2>
-            <div className="mt-4 flex flex-col gap-3 text-sm text-white/75">
-              <a href="#why-nestni" className="hover:text-white">Why Nestni</a>
-              <a href="#flow" className="hover:text-white">How it works</a>
+          <div className="grid grid-cols-1 gap-8 lg:contents">
+            <div>
+              <h2 className="text-sm font-bold uppercase tracking-[0.14em] text-white/55">Product</h2>
+              <div className="mt-4 flex flex-col gap-3 text-sm text-white/75">
+                <a href="#why-nestni" className="hover:text-white">Why Nestni</a>
+                <a href="#flow" className="hover:text-white">How it works</a>
+              </div>
+            </div>
+            <div>
+              <h2 className="text-sm font-bold uppercase tracking-[0.14em] text-white/55">Access</h2>
+              <div className="mt-4 flex flex-col gap-3 text-sm text-white/75">
+                <a href="https://nestni.com/login" className="hover:text-white">Owner access</a>
+                <a href="https://nestni.com/login" className="hover:text-white">Tenant portal</a>
+                <a href="https://nestni.com/register" className="hover:text-white">Register</a>
+              </div>
             </div>
           </div>
-          <div>
-            <h2 className="text-sm font-bold uppercase tracking-[0.14em] text-white/55">Access</h2>
-            <div className="mt-4 flex flex-col gap-3 text-sm text-white/75">
-              <a href="https://nestni.com/login" className="hover:text-white">Owner access</a>
-              <a href="https://nestni.com/login" className="hover:text-white">Tenant portal</a>
-              <a href="https://nestni.com/register" className="hover:text-white">Register</a>
-            </div>
-          </div>
-          <div className="col-start-2 lg:col-start-auto">
+          <div className="col-start-2 row-start-2 lg:col-start-auto lg:row-start-auto">
             <h2 className="text-sm font-bold uppercase tracking-[0.14em] text-white/55">Company</h2>
             <div className="mt-4 flex flex-col gap-3 text-sm text-white/75">
               <button type="button" onClick={onDemoRequest} className="text-left hover:text-white">Contact</button>

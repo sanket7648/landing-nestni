@@ -192,6 +192,10 @@ html.dark #problem .problem-float {
   color: #111111;
 }
 
+html.dark #problem .problem-float [class~="text-[#4b5563]"] {
+  color: #4b5563;
+}
+
 html.dark #problem .problem-float-slow {
   border-color: #f1d8b8;
   background-color: #fff5e9;
