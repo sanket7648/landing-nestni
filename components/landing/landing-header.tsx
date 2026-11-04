@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
-import { ArrowRight, Menu, X } from 'lucide-react'
+import { ArrowRight, Menu, Moon, Sun, X } from 'lucide-react'
 import { Link, useLocation } from 'react-router-dom'
 import { Logo } from './logo'
 import { useStartPageTransition } from './page-transition'
+import { useTheme } from './theme-provider'
 
 type LandingHeaderProps = {
   onDemoRequest?: () => void
@@ -18,6 +19,7 @@ const navigationLinks = [
 export function LandingHeader({ onDemoRequest }: LandingHeaderProps) {
   const [menuOpen, setMenuOpen] = useState(false)
   const { pathname, hash } = useLocation()
+  const { isDark, toggleTheme } = useTheme()
   const startPageTransition = useStartPageTransition()
   const sectionHref = (hash: string) => `/${hash}`
   const navigateWithLoader = (to: string) => {
@@ -39,7 +41,7 @@ export function LandingHeader({ onDemoRequest }: LandingHeaderProps) {
   }, [hash, pathname])
 
   return (
-    <header className="sticky top-0 z-30 border-b border-[#e5e7eb]/80 bg-[#e6f7f4]/95 backdrop-blur-md">
+    <header className="sticky top-0 z-30 border-b border-[#e5e7eb]/80 bg-[#e6f7f4]/95 backdrop-blur-md dark:border-white/10 dark:bg-[#101a18]/95">
       <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-5 sm:px-8 lg:px-10">
         <Logo />
         <nav className="hidden items-center gap-8 md:flex" aria-label="Main navigation">
@@ -74,20 +76,40 @@ export function LandingHeader({ onDemoRequest }: LandingHeaderProps) {
               Book a demo <ArrowRight className="ml-1 inline size-4" aria-hidden="true" />
             </button>
           )}
+          <button
+            type="button"
+            onClick={toggleTheme}
+            className="flex size-10 items-center justify-center rounded-full border border-[#00a98f]/30 text-[#173f35] transition hover:bg-white dark:text-white dark:hover:bg-white/10"
+            aria-label={`Switch to ${isDark ? 'light' : 'dark'} mode`}
+            title={`Switch to ${isDark ? 'light' : 'dark'} mode`}
+          >
+            {isDark ? <Sun className="size-5" aria-hidden="true" /> : <Moon className="size-5" aria-hidden="true" />}
+          </button>
         </div>
-        <button
-          type="button"
-          className="rounded-lg p-2 text-[#111111] md:hidden"
-          aria-label={menuOpen ? 'Close menu' : 'Open menu'}
-          aria-expanded={menuOpen}
-          aria-controls="mobile-navigation"
-          onClick={() => setMenuOpen((isOpen) => !isOpen)}
-        >
-          {menuOpen ? <X aria-hidden="true" /> : <Menu aria-hidden="true" />}
-        </button>
+        <div className="flex items-center gap-2 md:hidden">
+          <button
+            type="button"
+            onClick={toggleTheme}
+            className="flex size-10 items-center justify-center rounded-full border border-[#00a98f]/30 text-[#173f35] dark:text-white"
+            aria-label={`Switch to ${isDark ? 'light' : 'dark'} mode`}
+            title={`Switch to ${isDark ? 'light' : 'dark'} mode`}
+          >
+            {isDark ? <Sun className="size-5" aria-hidden="true" /> : <Moon className="size-5" aria-hidden="true" />}
+          </button>
+          <button
+            type="button"
+            className="rounded-lg p-2 text-[#111111] dark:text-white"
+            aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+            aria-expanded={menuOpen}
+            aria-controls="mobile-navigation"
+            onClick={() => setMenuOpen((isOpen) => !isOpen)}
+          >
+            {menuOpen ? <X aria-hidden="true" /> : <Menu aria-hidden="true" />}
+          </button>
+        </div>
       </div>
       {menuOpen && (
-        <nav id="mobile-navigation" className="flex flex-col gap-1 border-t border-[#e5e7eb] px-5 py-4 md:hidden" aria-label="Mobile navigation">
+        <nav id="mobile-navigation" className="flex flex-col gap-1 border-t border-[#e5e7eb] px-5 py-4 dark:border-white/10 md:hidden" aria-label="Mobile navigation">
           {navigationLinks.map(([label, href]) => (
             <Link
               key={href}

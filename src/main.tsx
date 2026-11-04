@@ -8,23 +8,26 @@ import { SurveyPage } from '@/components/pages/survey-page'
 import { PrivacyPolicyPage } from '@/components/pages/privacy-policy-page'
 import { TermsOfUsePage } from '@/components/pages/terms-of-use-page'
 import { AboutUsPage } from '@/components/pages/about-us-page'
+import { ThemeProvider } from '@/components/landing/theme-provider'
 import '@/src/globals.css'
 
 function App() {
   return (
-    <BrowserRouter>
-      <PageTransitionProvider>
-        <Routes>
-          <Route path="/" element={<NestniLanding />} />
-          <Route path="/survey" element={<SurveyPage />} />
-          <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
-          <Route path="/terms-of-use" element={<TermsOfUsePage />} />
-          <Route path="/about-us" element={<AboutUsPage />} />
-          <Route path="*" element={<Navigate to="/" replace />} />
-        </Routes>
-      </PageTransitionProvider>
-      {import.meta.env.PROD && <Analytics />}
-    </BrowserRouter>
+    <ThemeProvider>
+      <BrowserRouter>
+        <PageTransitionProvider>
+          <Routes>
+            <Route path="/" element={<NestniLanding />} />
+            <Route path="/survey" element={<SurveyPage />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+            <Route path="/terms-of-use" element={<TermsOfUsePage />} />
+            <Route path="/about-us" element={<AboutUsPage />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+        </PageTransitionProvider>
+        {import.meta.env.PROD && <Analytics />}
+      </BrowserRouter>
+    </ThemeProvider>
   )
 }
 

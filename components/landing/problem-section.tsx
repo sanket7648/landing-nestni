@@ -32,7 +32,7 @@ export function ProblemSection() {
           <div className="relative mx-auto min-h-[330px] w-full max-w-[530px] sm:min-h-[360px]" aria-label="Illustration of rental tasks scattered across separate records">
             <div className="absolute inset-5 rounded-[32px] border border-dashed border-white/15" />
             <div className="absolute left-[12%] top-[8%] size-40 rounded-full bg-[#e6a05c]/10 blur-3xl" />
-            <div className="problem-float absolute left-[4%] top-[10%] w-[57%] rotate-[-7deg] rounded-2xl border border-[#e7e1d3] bg-[#fffdf7] p-4 text-[#111111] shadow-[0_25px_60px_-32px_rgba(0,0,0,0.65)] sm:p-5">
+            <div className="problem-float absolute left-[4%] top-[10%] w-[57%] rotate-[-7deg] rounded-2xl border border-[#e7e1d3] bg-[#fffdf7] p-4 text-[#111111] shadow-[0_25px_60px_-32px_rgba(0,0,0,0.65)] dark:border-[#e7e1d3] dark:bg-[#fffdf7] dark:text-[#111111] sm:p-5">
               <div className="flex items-center justify-between">
                 <span className="flex items-center gap-2 text-sm font-semibold"><FileWarning className="size-4 text-[#bd704c]" aria-hidden="true" /> Tenant files</span>
                 <span className="rounded-full bg-[#fff0e9] px-2 py-1 text-xs font-semibold text-[#ae654b]">Needs sorting</span>
@@ -42,17 +42,17 @@ export function ProblemSection() {
                 <div className="flex items-center gap-2 rounded-lg bg-[#f5f2e9] px-2.5 py-2 text-xs text-[#4b5563]"><FileText className="size-3.5 text-[#b07a42]" aria-hidden="true" /> Tenant agreement.pdf</div>
               </div>
             </div>
-            <div className="problem-float-slow absolute right-[4%] top-[7%] flex w-[43%] rotate-[7deg] items-center gap-3 rounded-2xl border border-[#f1d8b8] bg-[#fff5e9] p-4 text-[#111111] shadow-[0_25px_60px_-32px_rgba(0,0,0,0.65)] sm:p-5">
+            <div className="problem-float-slow absolute right-[4%] top-[7%] flex w-[43%] rotate-[7deg] items-center gap-3 rounded-2xl border border-[#f1d8b8] bg-[#fff5e9] p-4 text-[#111111] shadow-[0_25px_60px_-32px_rgba(0,0,0,0.65)] dark:border-[#f1d8b8] dark:bg-[#fff5e9] dark:text-[#111111] sm:p-5">
               <span className="flex size-9 shrink-0 items-center justify-center rounded-xl bg-[#f9e5cb] text-[#a76331]"><WalletCards className="size-[18px]" aria-hidden="true" /></span>
               <div><p className="text-xs text-[#8b8172]">Rent follow-up</p><p className="mt-1 text-base font-bold">Still pending</p></div>
               <CircleAlert className="ml-auto size-4 shrink-0 text-[#bd704c]" aria-hidden="true" />
             </div>
-            <div className="problem-float-slower absolute bottom-[8%] left-[12%] flex w-[51%] -rotate-[3deg] items-center gap-3 rounded-2xl border border-[#e5e7eb] bg-white p-4 text-[#111111] shadow-[0_25px_60px_-32px_rgba(0,0,0,0.65)] sm:p-5">
+            <div className="problem-float-slower absolute bottom-[8%] left-[12%] flex w-[51%] -rotate-[3deg] items-center gap-3 rounded-2xl border border-[#e5e7eb] bg-white p-4 text-[#111111] shadow-[0_25px_60px_-32px_rgba(0,0,0,0.65)] dark:border-[#e5e7eb] dark:bg-white dark:text-[#111111] sm:p-5">
               <span className="flex size-9 shrink-0 items-center justify-center rounded-xl bg-[#eff0f8] text-[#67628c]"><BedDouble className="size-[18px]" aria-hidden="true" /></span>
               <div><p className="text-xs text-[#6b7280]">Room status</p><p className="mt-1 text-base font-bold">Check your notes</p></div>
               <Clock3 className="ml-auto size-4 shrink-0 text-[#6b7280]" aria-hidden="true" />
             </div>
-            <div className="problem-alert absolute bottom-[15%] right-[4%] flex items-center gap-2 rounded-xl border border-[#efc5ae] bg-[#fff1e9] px-3 py-2 text-xs font-semibold text-[#a85e42] shadow-lg">
+            <div className="problem-alert absolute bottom-[15%] right-[4%] flex items-center gap-2 rounded-xl border border-[#efc5ae] bg-[#fff1e9] px-3 py-2 text-xs font-semibold text-[#a85e42] shadow-lg dark:border-[#efc5ae] dark:bg-[#fff1e9] dark:text-[#a85e42]">
               <CircleAlert className="size-3.5" aria-hidden="true" /> Follow-up missed
             </div>
             <div className="absolute bottom-[4%] right-[22%] size-2 rounded-full bg-[#e8a05b] shadow-[0_0_18px_5px_rgba(232,160,91,0.4)]" />
